@@ -9,3 +9,7 @@ Jut copy-paste the URL of the ipython notebook (.ipynb extension) in the fill-in
 Dataset of registration of vehicles in Belgium, downloaded from 
 http://mobilit.belgium.be/nl/publicaties/open_data/.
 (Mainly Python Pandas and seaborn usage)
+
+## openweathermap
+
+API test of the openweathermap.org data API with a quick visualisation of the output, using pure Python.
