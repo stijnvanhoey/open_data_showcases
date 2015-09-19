@@ -6,10 +6,21 @@ Jut copy-paste the URL of the ipython notebook (.ipynb extension) in the fill-in
 
 ## Vehicle registration in Belgium
 
-Dataset of registration of vehicles in Belgium, downloaded from 
+Dataset of registration of vehicles in Belgium, downloaded from
 http://mobilit.belgium.be/nl/publicaties/open_data/.
 (Mainly Python Pandas and seaborn usage)
 
 ## openweathermap
 
 API test of the openweathermap.org data API with a quick visualisation of the output, using pure Python.
+
+
+## Gent cijfers
+Visualisations of open data of the City of Ghent.
+
+Migration of people in the different parts of Ghent in time:
+![migration in time](./gent_cijfers/wijkmigratie_gent.png)
+
+Evolution of the density of the different parts of Ghent in time:
+![migration in time](./gent_cijfers/dichtheid_gent.png)
+Interesting observation is that already dense regions are only getting more dense...
