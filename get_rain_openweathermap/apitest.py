@@ -19,7 +19,11 @@ data = response.json()
 
 rain_info = {}
 for record in data['list']:
-    rain_info[datetime.datetime.fromtimestamp(record['dt'])] = record['rain'].values()[0]
+    try:
+        rain_info[datetime.datetime.fromtimestamp(record['dt'])] = record['rain'].values()[0]
+    except:
+        rain_info[datetime.datetime.fromtimestamp(record['dt'])] = 0.0
+
 raindata = pd.Series(rain_info)
 
 import numpy as np
