@@ -24,3 +24,9 @@ Migration of people in the different parts of Ghent in time:
 Evolution of the density of the different parts of Ghent in time:
 ![migration in time](./gent_cijfers/dichtheid_gent.png)
 Interesting observation is that already dense regions are only getting more dense...
+
+## gbif
+
+Gbif is a Free and Open Access platform to Biodiversity Data, for which you can
+check occurences of species:
+* Musk Ox: http://www.gbif.org/species/2441108
